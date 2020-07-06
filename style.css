@@ -17,7 +17,7 @@ body {
 .logo{
     font-size: 18px;
     text-transform: uppercase;
-    font-weight: bold;
+    font-weight: bolder;
     color: white;
     letter-spacing: 4px;
     padding: 10px 10px 10px 35px;
@@ -50,6 +50,10 @@ li{
 li a{
     text-decoration: none;
     color: white;
+}
+
+li a:hover{
+    color: #9ab732;
 }
 
 /*Bloco de Texto*/
@@ -110,9 +114,10 @@ li a{
 
 .socialmedia{
     display: flex;
- justify-content: center;
- margin-top: 140px;
- margin-bottom: 20px;
+    justify-content: center;
+    margin-top: 140px;
+    margin-bottom: 20px;
+    
     
 }
 
@@ -120,6 +125,7 @@ li a{
     width: 30px;
     height: 30px;
     opacity: 0.9;
+    
 }
 
 .instagram{
@@ -169,6 +175,41 @@ li a{
         justify-content: center;
         margin-top: 140px;
         margin-bottom: 5px;
+        
+    }
+}
+
+@media only screen and (max-width: 546px){
+
+    .blocktext{
+        display: block;
+        margin: 185px 60px 60px 80px;
+    }
+    
+    .maintext{
+        font-family: Playfair Display;
+        font-weight: normal;
+        font-size: 25px;
+        color: white;
+        letter-spacing: 7px;
+        line-height: 30px;
+    }
+    
+    .subtext{
+        font-family: Playfair Display;
+        font-weight: normal;
+        font-size: 6px;
+        color: white;
+        letter-spacing: 3px;
+        line-height: 30px;
+        font-style: italic;
+    }
+
+    .socialmedia{
+        display: flex;
+        justify-content: center;
+        margin-top: 140px;
+        margin-bottom: 20px;
         
     }
 }
